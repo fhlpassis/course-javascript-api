@@ -13,8 +13,9 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'https://apicursojs.pauloassis.com',
+  'https://api.cursojs.pauloassis.com',
   'http://localhost:3001',
+  'http://localhost:3000',
 ];
 
 const corsOptions = {
