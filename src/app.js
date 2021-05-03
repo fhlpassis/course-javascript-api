@@ -14,9 +14,7 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'https://api.cursojs.pauloassis.com',
-  'http://localhost:3001',
-  'http://localhost:3000',
+  'https://reactapi.cursojs.pauloassis.com',
 ];
 
 const corsOptions = {
