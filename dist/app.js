@@ -14,9 +14,7 @@ var _alunoRoutes = require('./routes/alunoRoutes'); var _alunoRoutes2 = _interop
 var _fotoRoutes = require('./routes/fotoRoutes'); var _fotoRoutes2 = _interopRequireDefault(_fotoRoutes);
 
 const whiteList = [
-  'https://api.cursojs.pauloassis.com',
-  'http://localhost:3001',
-  'http://localhost:3000',
+  'https://reactapi.cursojs.pauloassis.com',
 ];
 
 const corsOptions = {
@@ -39,7 +37,7 @@ class App {
   middlewares() {
     this.app.use(_cors2.default.call(void 0, corsOptions));
     this.app.use(_helmet2.default.call(void 0, ));
-    //this.app.use(delay(2000));
+    this.app.use(_expressdelay2.default.call(void 0, 500));
     this.app.use(_express2.default.urlencoded({ extended: true }));
     this.app.use(_express2.default.json());
     this.app.use('/images/', _express2.default.static(_path.resolve.call(void 0, __dirname, '..', 'uploads', 'images')));
