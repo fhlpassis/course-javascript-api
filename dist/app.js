@@ -15,6 +15,7 @@ var _fotoRoutes = require('./routes/fotoRoutes'); var _fotoRoutes2 = _interopReq
 
 const whiteList = [
   'https://reactapi.cursojs.pauloassis.com',
+  'https://a2.devweb2.pauloassis.com',
 ];
 
 const corsOptions = {

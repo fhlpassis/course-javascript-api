@@ -15,6 +15,7 @@ import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
   'https://reactapi.cursojs.pauloassis.com',
+  'https://a2.devweb2.pauloassis.com',
 ];
 
 const corsOptions = {
